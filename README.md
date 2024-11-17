@@ -8,7 +8,7 @@
 <h1 align="center">SpringBoot-Kai-Project-cli</h1>
 <p align="center"><strong>Kaiの快速开发SpringBoot项目的脚手架。<br><em>持续更新中～</em></strong></p>
 <div align="center">
-    <a href=""><img src="https://img.shields.io/badge/github-项目地址-yellow.svg?style=plasticr"></a></div>
+    <a href="https://github.com/AlfonsoKevin/Kai-Project"><img src="https://img.shields.io/badge/github-项目地址-yellow.svg?style=plasticr"></a></div>
 
 
 
@@ -165,7 +165,9 @@ gitignore中隐藏了sql文件，还有application-prod.yml，可以自行创建
 9. 如果要修改`src`下面的文件夹，直接修改即可，要注意与启动类中的文件路径配置保持一致。
 10. 重新加载Maven，看看哪里还有点不太对的。
 
+如下
 
+<img src="./imgs/img1.png" width="280" />
 
 ### 注意事项:ear:
 
