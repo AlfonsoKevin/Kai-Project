@@ -8,7 +8,10 @@
 <h1 align="center">SpringBoot-Kai-Project-cli</h1>
 <p align="center"><strong>Kaiの快速开发SpringBoot项目的脚手架。<br><em>持续更新中～</em></strong></p>
 <div align="center">
-    <a href="https://github.com/AlfonsoKevin/Kai-Project"><img src="https://img.shields.io/badge/github-项目地址-yellow.svg?style=plasticr"></a></div>
+    <a href="https://github.com/AlfonsoKevin/Kai-Project"><img src="https://img.shields.io/badge/github-项目地址-yellow.svg?style=plasticr"></a>
+    <a href="https://github.com/AlfonsoKevin/Kai-Project"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
+</div>
+
 
 
 
@@ -146,7 +149,7 @@ gitignore中隐藏了sql文件，还有application-prod.yml，可以自行创建
 
 
 
-### 食用指南⚡
+### 食用指南✨
 
 你可以拉取下代码任意进行修改，修改为你想要的项目的名字。
 
@@ -168,6 +171,16 @@ gitignore中隐藏了sql文件，还有application-prod.yml，可以自行创建
 如下
 
 <img src="./imgs/img1.png" width="280" />
+
+---
+
+### 修改 ⚡
+2024/11/18 
+
+- 注释了common包下的`Redisson,Redis,RocketMq`相关依赖，方便启动，后续有使用再取消注释即可
+- 修改了配置文件，删除了多余的`yml`部分，自定义更强，牺牲了全面的yml结构，需要使用者自行去**查找补充**；
+- 使得clone下来代码，只要有正确的*数据库名*和*密码*，就可以**立马启动**。
+- 新增`application-all.properties`之前的所有参数在这里
 
 ### 注意事项👂
 
