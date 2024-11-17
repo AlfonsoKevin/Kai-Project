@@ -1,0 +1,76 @@
+# Compiled class file
+*.class
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Intellij
+*.ipr
+*.iml
+*.iws
+.idea/
+
+# Maven
+target/
+
+# Gradle
+build
+.gradle
+
+# Log file
+*.log
+
+# out
+**/out/
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.pid
+*.orig
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Mac
+.DS_Store
+
+
+# 忽略数据库表
+*.sql
+.sql/
+/sql/
+
+# Temporary File
+*temporary
+
+
+
+
+
+CodeGenerator.java
+TestController.java
+SensitiveTest.java
+
+application-prod.properties
+application-my-prod.properties
+application-my-test.properties
+mybatis-generator-config.xml
+
+ChannelBizRankClient.java
+ChannelBizBrandWallClient.java
+TestConsumer.java
