@@ -151,6 +151,12 @@ gitignore中隐藏了sql文件，还有application-prod.yml，可以自行创建
 
 ### 食用指南✨
 
+【方案一】
+
+[正确打开方式](./create_by_maven.md)
+
+【方案二】手动修改
+
 你可以拉取下代码任意进行修改，修改为你想要的项目的名字。
 
 注意修改顺序：
@@ -171,6 +177,8 @@ gitignore中隐藏了sql文件，还有application-prod.yml，可以自行创建
 如下
 
 <img src="./imgs/img1.png" width="280" />
+
+如果喜欢的话，别忘了点个 ⭐，感谢🥰
 
 ---
 
