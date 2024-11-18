@@ -74,3 +74,5 @@ mybatis-generator-config.xml
 ChannelBizRankClient.java
 ChannelBizBrandWallClient.java
 TestConsumer.java
+
+archetype.properties
