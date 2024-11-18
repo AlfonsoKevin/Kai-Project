@@ -37,14 +37,14 @@ mvn archetype:generate -DarchetypeCatalog=local
 
 使用可供选择的模板
 
-![img1.png](.\imgs\description\img1.png)
+![img1.png](https://github.com/AlfonsoKevin/Kai-Project/blob/main/imgs/description/img1.png?raw=true)
 
 输入对应需要的参数
 
-![img2.png](.\imgs\description\img2.png)
+![img2.png](https://github.com/AlfonsoKevin/Kai-Project/blob/main/imgs/description/img2.png?raw=true)
 
-![img3.png](.\imgs\description\img3.png)
+![img3.png](https://github.com/AlfonsoKevin/Kai-Project/blob/main/imgs/description/img3.png?raw=true)
 
 生成项目，查看即可。
 
-![img4.png](.\imgs\description\img4.png)
+![img4.png](https://github.com/AlfonsoKevin/Kai-Project/blob/main/imgs/description/img4.png?raw=true)
