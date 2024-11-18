@@ -155,6 +155,8 @@ gitignore中隐藏了sql文件，还有application-prod.yml，可以自行创建
 
 [正确打开方式](./create_by_maven.md)
 
+你可以不使用命令行的方式来创建，可以自行搜索IDEA中添加Add Archetype的形式。
+
 【方案二】手动修改
 
 你可以拉取下代码任意进行修改，修改为你想要的项目的名字。
