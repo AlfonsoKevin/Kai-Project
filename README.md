@@ -186,6 +186,11 @@ gitignore中隐藏了sql文件，还有application-prod.yml，可以自行创建
 
 ### 修改 ⚡
 
+2024/11/21
+
+- 上传到maven中央仓库
+- 修改了使用指南，简化创建项目
+
 2024/11/20
 
 - 修改了`custom-server`下两个`SpringBootApplication`问题
