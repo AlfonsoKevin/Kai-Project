@@ -14,6 +14,8 @@ mvn archetype:generate "-DarchetypeGroupId=io.github.alfonsokevin" "-DarchetypeA
 
 
 
+`"-DarchetypeRepository=https://github.com/AlfonsoKevin/Kai-Project"`参数是用来试图兼容Maven2.0+的版本的，可以不加也应该没问题
+
 格式化后：
 
 ```xml
@@ -64,7 +66,7 @@ mvn archetype:generate
     <archetype>
       <groupId>io.github.alfonsokevin</groupId>
       <artifactId>Kai-Project-cli</artifactId>
-      <version>1.0.0</version>
+      <version>1.1.1</version>
       <description>A concise template for rapid development based on SpringBoot</description>
     </archetype>
   </archetypes>

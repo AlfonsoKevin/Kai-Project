@@ -151,6 +151,11 @@ gitignore中隐藏了sql文件，还有application-prod.yml，可以自行创建
 
 ### 食用指南✨
 
+> 先决条件：
+>
+> - JDK8+
+> - Maven3.0+
+
 【方案一】
 
 [正确打开方式](./create_by_maven.md)
