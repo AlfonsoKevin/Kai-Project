@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.kaikai</groupId>
@@ -13,7 +11,8 @@
         <module>kai-custom-server</module>
         <module>kai-admin-server</module>
         <module>kai-framework</module>
-    </modules>
+      <module>Kai-Cli</module>
+  </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -57,7 +56,7 @@
             <dependency>
                 <groupId>com.kaikai</groupId>
                 <artifactId>kai-common</artifactId>
-                <!--ä½¿ç”¨çˆ¶å·¥ç¨‹çš„ç‰ˆæœ¬-->
+                <!--Ê¹ÓÃ¸¸¹¤³ÌµÄ°æ±¾-->
                 <version>${version}</version>
             </dependency>
 
@@ -108,13 +107,13 @@
                 <artifactId>mybatis-plus-generator</artifactId>
                 <version>${mybatis-plus-generator.version}</version>
             </dependency>
-            <!--Mysqlæ•°æ®åº“é©±åŠ¨-->
+            <!--MysqlÊý¾Ý¿âÇý¶¯-->
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql-connector.version}</version>
             </dependency>
-            <!--JWT(Json Web Token)ç™»å½•æ”¯æŒ-->
+            <!--JWT(Json Web Token)µÇÂ¼Ö§³Ö-->
             <dependency>
                 <groupId>io.jsonwebtoken</groupId>
                 <artifactId>jjwt</artifactId>
@@ -126,7 +125,7 @@
                 <artifactId>java-jwt</artifactId>
                 <version>${java-jwt.version}</version>
             </dependency>
-            <!-- é˜¿é‡Œäº‘OSS -->
+            <!-- °¢ÀïÔÆOSS -->
             <dependency>
                 <groupId>io.minio</groupId>
                 <artifactId>minio</artifactId>

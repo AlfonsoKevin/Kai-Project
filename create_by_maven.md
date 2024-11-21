@@ -9,8 +9,7 @@
 以这样的命令在对应想要创建的目录下执行，当然，这些参数都可以自定义
 
 ```xml
-mvn archetype:generate -DgroupId=com.project -DartifactId=Kai-Cli -Dversion=1.0.0 -Dpackage=com.project -DarchetypeGroupId=io.github.alfonsokevin -DarchetypeArtifactId=Kai-Project-cli -DarchetypeVersion=1.0.0 -DinteractiveMode=false
-
+mvn archetype:generate "-DarchetypeGroupId=io.github.alfonsokevin" "-DarchetypeArtifactId=Kai-Project-cli" "-DarchetypeVersion=1.1.1" "-DgroupId=com.project" "-DartifactId=Kai-Cli" "-Dversion=1.0.0" "-DinteractiveMode=false" "-DarchetypeRepository=https://github.com/AlfonsoKevin/Kai-Project"
 ```
 
 
@@ -27,6 +26,7 @@ mvn archetype:generate
  -DarchetypeArtifactId=Kai-Project-cli
  -DarchetypeVersion=1.0.0
  -DinteractiveMode=false
+ -DarchetypeRepository=https://github.com/AlfonsoKevin/Kai-Project
 ```
 
 
