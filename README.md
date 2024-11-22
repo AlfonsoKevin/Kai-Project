@@ -15,7 +15,7 @@
 
 
 
-
+[中文|[English](./other-docs/README-EN.md)]
 
 ## 介绍
 
@@ -158,7 +158,7 @@ gitignore中隐藏了sql文件，还有application-prod.yml，可以自行创建
 
 【方案一】
 
-[正确打开方式](./create_by_maven.md)
+[正确打开方式](./other-docs/create_by_maven.md)
 
 你可以不使用命令行的方式来创建，可以自行搜索IDEA中添加Add Archetype的形式。
 
@@ -204,7 +204,7 @@ gitignore中隐藏了sql文件，还有application-prod.yml，可以自行创建
 
 2024/11/18 
 
-- 新增了用mvn的形式构建项目可见[正确打开方式](./create_by_maven.md)
+- 新增了用mvn的形式构建项目可见[正确打开方式](./other-docs/create_by_maven.md)
 - 注释了common包下的`Redisson,Redis,RocketMq`相关依赖，方便启动，后续有使用再取消注释即可
 - 修改了配置文件，删除了多余的`yml`部分，自定义更强，牺牲了全面的yml结构，需要使用者自行去**查找补充**；
 - 使得clone下来代码，只要有正确的*数据库名*和*密码*，就可以**立马启动**。
