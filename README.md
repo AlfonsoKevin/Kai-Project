@@ -191,6 +191,10 @@ gitignore中隐藏了sql文件，还有application-prod.yml，可以自行创建
 
 ### 修改 ⚡
 
+2024/12/29
+
+- 新增web页面，用于快速生成命令，可访问[SpringBoot Kai Project Generator](https://cli.mynow.top/)
+
 2024/11/21
 
 - 上传到maven中央仓库
